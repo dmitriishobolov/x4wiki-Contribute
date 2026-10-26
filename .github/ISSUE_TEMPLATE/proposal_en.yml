@@ -30,7 +30,7 @@ body:
     id: scope
     attributes:
       label: "Material scope"
-      options: ["General X4 modding","Multiplayer / X4FO"]
+      options: ["XML / game data", "MD / AI", "Lua UI / FFI", "Types and methods", "Translation / other"]
     validations:
       required: true
   - type: dropdown
@@ -47,3 +47,11 @@ body:
       description: "Include primary links, a short authored example and result checks. State unknowns explicitly."
     validations:
       required: false
+
+  - type: checkboxes
+    id: public_content
+    attributes:
+      label: "Public material only"
+      options:
+        - label: "No mod files, internal documents, complete sources, credentials or personal data are attached."
+          required: true

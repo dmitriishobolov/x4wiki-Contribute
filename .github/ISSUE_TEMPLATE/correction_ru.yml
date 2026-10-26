@@ -30,7 +30,7 @@ body:
     id: scope
     attributes:
       label: "Область материала"
-      options: ["Обычный моддинг X4","Мультиплеер / X4FO"]
+      options: ["XML / данные игры", "MD / AI", "Lua UI / FFI", "Типы и методы", "Перевод / другое"]
     validations:
       required: true
   - type: dropdown
@@ -47,3 +47,11 @@ body:
       description: "Укажите первичные ссылки, короткий собственный код и шаги проверки. Неизвестное можно обозначить прямо."
     validations:
       required: false
+
+  - type: checkboxes
+    id: public_content
+    attributes:
+      label: "Только публичные материалы"
+      options:
+        - label: "Нет файлов мода, внутренних документов, полных исходников, секретов или личных данных."
+          required: true

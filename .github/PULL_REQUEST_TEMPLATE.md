@@ -15,7 +15,7 @@ Related issue:
 
 ## Перед отправкой / Before submitting
 
-- [ ] Материал относится к обычному моддингу либо явно помечен X4FO/network. / General modding or explicitly X4FO/network.
+- [ ] Материал относится к моддингу X4. / Material covers X4 modding.
 - [ ] Непроверенный в игре пример не назван проверенным. / Untested examples are not claimed as verified in game.
 - [ ] Указаны место вставки, предпосылки и источники. / Insertion point, prerequisites and sources are listed.
-- [ ] Нет ключей, личных данных или извлечённых исходников игры. / No credentials, personal data or extracted original game sources.
+- [ ] Нет файлов мода, внутренних документов, полных исходников, ключей или личных данных. / No mod files, internal documents, complete sources, credentials or personal data.

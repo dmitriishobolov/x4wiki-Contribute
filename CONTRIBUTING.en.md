@@ -41,7 +41,7 @@ This illustrates a useful submission, rather than asserting that the page has th
 
 For an existing page, download its Markdown from the wiki, submit your edited
 copy under `proposals/`, link the original URL and summarize the changes.
-You do not need access to the main X4FO repository or a local wiki installation.
+No access to another project or local wiki installation is required.
 
 If you prefer Git:
 
@@ -63,9 +63,9 @@ from that branch into `dmitriishobolov/x4wiki-Contribute:main`.
 State the execution layer (XML patch, MD, AI, Lua UI, FFI or a custom library),
 versions, insertion point, parameter types established by sources and remaining
 unknowns. Explain how to independently read the result and cite primary sources.
-Keep untested examples marked as examples. X4FO/network functions are not built-in
-game API and belong in the separate network section. Do not submit credentials,
-personal logs, saves or extracted original game files.
+Keep untested examples marked as examples. Do not submit mods, mod files, internal
+documents or complete source files. Provide a small independent example and public
+primary sources. Do not submit credentials, personal logs, saves or extracted game files.
 
 ## After submission
 
