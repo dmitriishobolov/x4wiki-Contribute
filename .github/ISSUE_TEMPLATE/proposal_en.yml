@@ -1,0 +1,49 @@
+name: "New article / addition (EN)"
+description: "Propose or improve material for X4 Modding Wiki."
+title: "[Addition] "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: "Wiki page URL or missing topic"
+    validations:
+      required: false
+  - type: textarea
+    id: summary
+    attributes:
+      label: "What should be added or corrected?"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Proposed wording or expected result"
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: "X4 version and installed mods"
+    validations:
+      required: false
+  - type: dropdown
+    id: scope
+    attributes:
+      label: "Material scope"
+      options: ["General X4 modding","Multiplayer / X4FO"]
+    validations:
+      required: true
+  - type: dropdown
+    id: evidence
+    attributes:
+      label: "What has actually been checked?"
+      options: ["Idea / not tested yet","Read in a source","An isolated example outside the game","A specific scenario in game"]
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: "Sources and examples"
+      description: "Include primary links, a short authored example and result checks. State unknowns explicitly."
+    validations:
+      required: false

@@ -1,0 +1,49 @@
+name: "Исправление статьи / примера (RU)"
+description: "Предложить материал или улучшить X4 Modding Wiki."
+title: "[Correction] "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: "Страница вики или новая тема"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Что нужно добавить или исправить?"
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Предлагаемый текст или ожидаемый результат"
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: "Версия X4 и используемые моды"
+    validations:
+      required: false
+  - type: dropdown
+    id: scope
+    attributes:
+      label: "Область материала"
+      options: ["Обычный моддинг X4","Мультиплеер / X4FO"]
+    validations:
+      required: true
+  - type: dropdown
+    id: evidence
+    attributes:
+      label: "Что уже проверено?"
+      options: ["Идея / пока не проверено","Прочитано в источнике","Проверен отдельный пример вне игры","Проверен конкретный сценарий в игре"]
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: "Источники и примеры"
+      description: "Укажите первичные ссылки, короткий собственный код и шаги проверки. Неизвестное можно обозначить прямо."
+    validations:
+      required: false
